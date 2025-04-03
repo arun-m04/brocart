@@ -1,0 +1,22 @@
+ECHO is on.
+# Ignore database files
+*.sqlite3
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment
+venv/
+env/
+*.env
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+
+# Ignore static and media files
+/static/
+/media/
